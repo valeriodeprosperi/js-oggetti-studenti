@@ -32,3 +32,7 @@ var arrayStudenti = [
   }
 
 ];
+
+for (var i = 0; i < arrayStudenti.length; i++) {
+  console.log(arrayStudenti[i].nome , arrayStudenti[i].cognome);
+}
