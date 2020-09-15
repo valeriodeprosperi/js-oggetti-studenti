@@ -43,3 +43,6 @@ for (var i = 0; i < arrayStudenti.length; i++) {
 var nome = prompt("Inserisci nome studente");
 var cognome = prompt("Inserisci cognome  studente");
 var eta = prompt("Inserisci èta studente");
+
+arrayStudenti.push({nome, cognome, eta});
+console.log(arrayStudenti);
