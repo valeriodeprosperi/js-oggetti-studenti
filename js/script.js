@@ -10,3 +10,25 @@ var studente = {
 for (var infostudente in studente) {
     console.log(studente[infostudente]);
 }
+/* Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome*/
+
+var arrayStudenti = [
+  {
+    "nome": "Marco",
+    "cognome": "balestri",
+    "età": "30"
+  },
+
+  {
+    "nome": "Pippo",
+    "cognome": "Bruni",
+    "età": "22"
+  },
+
+  {
+    "nome": "Simone",
+    "cognome": "Biancji",
+    "età": "27"
+  }
+
+];
