@@ -6,3 +6,7 @@ var studente = {
     "cognome": "Olivetti",
     "età": "28"
 }
+
+for (var infostudente in studente) {
+    console.log(studente[infostudente]);
+}
